@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <img src="./assets/binance-logo.jpg" alt="logo-binance" class="binance-img">
+
+    <main>
+
+        <div class="container-select">
+
+            <label>
+                Converter <b>de</b>
+                <select class="currency-brasil">
+                    <option value="brasil"> R$ Real brasileiro </option>
+                    <option value="dolar"> US$ Dólar americano </option>
+                    <option value="euro">€ Euro </option>
+                    <option value="libra"> £ Libra </option>
+                    <option value="bitcoin"> ₿ Bitcoin </option>
+                </select>
+            </label>
+
+            <label>
+                Converter <b>para</b>
+                <select class="select-currency">
+                    <option value="dolar"> US$ Dólar americano </option>
+                    <option value="euro">€ Euro </option>
+                    <option value="libra"> £ Libra </option>
+                    <option value="bitcoin"> ₿ Bitcoin </option>
+                    <option value="brasil"> R$ Real brasileiro </option>
+                </select>
+            </label>
+
+            <label>
+                Valor
+                <input placeholder="R$ 10.000,00" class="typed-in-input">
+            </label>
+
+            <button class="button-main">
+                Converter
+            </button>
+
+        </div>
+
+        <div class="container-converted">
+
+            <div class="box-brasil">
+                <img src="./assets/brasil 2.png" alt="brasil-logo" class="flag-brasil">
+                <p class="real-paragraph">Real</p>
+                <p class="numbers" id="value-input"> <b> R$ 10.000,00 </b> </p>
+            </div>
+
+            <img src="./assets/arrow.webp" alt="arrow-img" class="arrow">
+
+            <div class="box-eua">
+                <img src="./assets/eua.png" alt="eua-logo" class="img-flag">
+                <p class="eua-paragraph">Dólar Americano</p>
+                <p class="numbers" id="value-converted"> <b> US$ 2.000,00 </b> </p>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
