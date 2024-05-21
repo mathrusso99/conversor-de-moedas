@@ -14,5 +14,10 @@
 
 
 <h3> :iphone: Mobile</h3>
-<img src = "https://github.com/mathrusso99/conversor-de-moedas/blob/main/assets/web.png?raw=true">
+<img src = "https://github.com/mathrusso99/conversor-de-moedas/blob/main/assets/mobile.png?raw=true">
+
+<h3>Site funcionando</h3>
+
+
+https://github.com/mathrusso99/conversor-de-moedas/assets/109997515/71f538ab-4b1f-4c4a-8b7d-b7cebf5413f7
 
