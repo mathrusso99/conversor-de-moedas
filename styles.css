@@ -8,6 +8,10 @@
 
 body {
     background-color: black;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 100vh;
 }
 
 .binance-img {
@@ -19,7 +23,6 @@ body {
 
 main {
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
     height: 745px;
     width: 375px;
